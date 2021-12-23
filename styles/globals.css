@@ -14,3 +14,47 @@ a {
 * {
   box-sizing: border-box;
 }
+
+button.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 45px;
+  border:solid 1px #C9B3F6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color:#fff;
+  color: #000;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 50px 0 24px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #C9B3F6;
+}
+
+button span {
+  margin-left: 20px;
+}
+
+button.button:hover {
+  border-color: #000;
+  box-shadow: 4px 4px 0px #000;
+}
+
+.linkButton {
+  display: block;
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.linkButton:hover {
+  color: #5906ff
+}
